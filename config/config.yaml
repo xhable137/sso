@@ -1,0 +1,18 @@
+env: "local"
+storage_path: "./storage.db"
+http_server:
+  address: "0.0.0.0:8082"
+  timeout: 4s
+  idle_timeout: 30s
+  user: "Shabby8574"
+  password: "your_password_here"
+postgresql:
+  host: "localhost"
+  port: "5432"
+  user: "postgres"
+  password: "password"
+  dbname: "grpc_shortener"
+  sslmode: "disable"
+grpc:
+  port: 44044
+  timeout: 5s
